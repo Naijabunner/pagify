@@ -8,7 +8,7 @@ const Card: React.FC<CardProps> = ({ src, title, price }) => {
   return (
     <div className="bg-orange-200 w-fit py-8 px-5 sm:py-8 md:p-20 rounded-md flex flex-col justify-between gap-5 items-center">
       <p className="">{title}</p>
-      <Image src={src} alt={title} className="w-auto" />
+      <Image src={src} alt={title} className="w-52 md:w-32 " />
       <button className="bg-orange-600 px-3 py-1 rounded-full">${price}</button>
     </div>
   );

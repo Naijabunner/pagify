@@ -6,4 +6,7 @@ export interface Product {
     title: string;
     price: number;
   }
-  
+  export interface Category {
+    category: string;
+    products: Product[];
+  }

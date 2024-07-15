@@ -4,27 +4,19 @@ import React from 'react';
 import brown from '@/public/Images/brownBag.png';
 import { Product } from '@/lib/types'; // Adjust the import path based on your project structure
 
-const Productsection: React.FC = () => {
-  const mockArr: Product[] = [
-    {
-      src: brown,
-      title: 'Brown Travelling Bag',
-      price: 450,
-    },
-    {
-      src: brown,
-      title: 'Brown Travelling Bag',
-      price: 450,
-    },
-  ];
+interface ProductsectionProps{
+  data:Product[],
+  category:string
+}
+const Productsection: React.FC<ProductsectionProps> = ({data,category}) => {
 
   return (
     <div>
       <>
-        <CardHeader category={"What's new"} />
+        <CardHeader category={category} />
       </>
-      <div className="flex flex-wrap sm:flex-nowrap justify-evenly md:gap-0 gap-5">
-        {mockArr.map((catalouge, index) => (
+      <div className="flex flex-wrap  justify-evenly gap-5">
+        {data.map((catalouge, index) => (
           <Card
             key={index} // Adding key prop
             src={catalouge.src}
