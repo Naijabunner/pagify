@@ -19,6 +19,9 @@
   justify-self: start;
   top:0;
 }
+.capital{
+  text-transform: uppercase;
+}
 /* .hero button{
   font-size:clamp(1.5rem,7vw,2.5);
 } */
