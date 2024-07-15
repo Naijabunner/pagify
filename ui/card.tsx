@@ -22,6 +22,21 @@ const colorClasses: Record<Color, { bg: string; text: string; button: string }> 
     text: 'text-blue-800',
     button: 'bg-blue-600'
   },
+  zinc: {
+    bg: 'bg-zinc-200',
+    text: 'text-zinc-800',
+    button: 'bg-zinc-600'
+  },
+  slate: {
+    bg: 'bg-slate-200',
+    text: 'text-slate-800',
+    button: 'bg-slate-600'
+  },
+  yellow: {
+    bg: 'bg-yellow-200',
+    text: 'text-yellow-800',
+    button: 'bg-yellow-600'
+  },
   green: {
     bg: 'bg-green-200',
     text: 'text-green-800',

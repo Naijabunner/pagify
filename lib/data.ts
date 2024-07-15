@@ -1,5 +1,11 @@
 import BrownBagOne from "@/public/Images/brownBag.png";
 import GreenBagOne from "@/public/Images/HackyBackPack.png";
+import BlackBagOne from "@/public/Images/backblack.png";
+import GrayBagOne from "@/public/Images/backgreyy.png";
+import TravelBagOne from "@/public/Images/backbrown.png";
+import CopperBagOne from "@/public/Images/travelblack.png";
+import CastIronBagOne from "@/public/Images/backblack.png";
+import HackyBagOne from "@/public/Images/backgreyy.png";
 
 export const db=[
     {
@@ -24,41 +30,42 @@ export const db=[
       category: "Best seller",
       products:[
           {
-            src: BrownBagOne,
+            src: BlackBagOne,
             title: "Black Backpack",
             price: 90,
-            color:"orange"
+            color:"slate"
           },
           {
-            src: BrownBagOne,
+            src: GrayBagOne,
             title: "Gray Backpack",
             price: 70,
-            color:"orange"
+            color:"zinc"
           },
           {
-            src: BrownBagOne,
+            src: TravelBagOne,
             title: "Travel Bag",
             price: 70,
             color:"orange"
           },
-          {
+           {
             src: BrownBagOne,
+            title: "Brown Travelling Bag",
+            price: 450,
+            color:"orange"
+          },
+          {
+            src: CopperBagOne,
             title: "Copper Canyon",
             price: 150,
-            color:"orange"
+            color:"yellow"
           },
           {
-            src: BrownBagOne,
+            src: CastIronBagOne,
             title: "Cast Iron Cookware",
             price: 70,
-            color:"orange"
+            color:"zinc"
           },
-          {
-            src: BrownBagOne,
-            title: "Hacky Backpack Tourist",
-            price: 70,
-            color:"orange"
-          },
+      
         ]
       
     },
@@ -66,17 +73,17 @@ export const db=[
         category: "Instagram",
         products:[
             {
-              src: BrownBagOne,
-              title: "Brown Travelling Bag",
-              price: 450,
-              color:"orange"
-            },
-            {
-              src: BrownBagOne,
-              title: "Brown Travelling Bag",
-              price: 450,
-              color:"orange"
-            },
+                src: CastIronBagOne,
+                title: "Cast Iron Cookware",
+                price: 70,
+                color:"zinc"
+              },
+              {
+                src: GrayBagOne,
+                title: "Gray Backpack",
+                price: 70,
+                color:"zinc"
+              },
           ]
         
       },

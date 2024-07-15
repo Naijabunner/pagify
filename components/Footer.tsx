@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className=' bg-slate-100 pt-10 pb-5'>
+    <footer className=' bg-slate-100 pt-10 pb-5 mt-10'>
       <ul className='flex flex-wrap justify-evenly gap-5 text-slate-500 font-medium'>
         <li>Home</li>
         <li>Service</li>

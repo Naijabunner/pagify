@@ -1,5 +1,3 @@
-import Image from "next/image";
-import bgImg from "../public/Images/herobg.png"
 const Hero = () => {
     return ( 
         <section className="hero relative h-screen flex min-w-screen flex-col items-center ">
