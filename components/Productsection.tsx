@@ -22,6 +22,7 @@ const Productsection: React.FC<ProductsectionProps> = ({data,category}) => {
             src={catalouge.src}
             title={catalouge.title}
             price={catalouge.price}
+            color={catalouge.color}
           />
         ))}
       </div>
